@@ -1,6 +1,4 @@
-[[
 local hint = Instance.new("Hint",workspace)
 hint.Text = "test"
 wait(3)
 hint:Destroy()
-]]
