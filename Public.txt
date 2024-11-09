@@ -1,4 +1,10 @@
-local hint = Instance.new("Hint",workspace)
-hint.Text = "test"
-wait(3)
-hint:Destroy()
+local Value = workspace:FindFirstChild("upd")
+if(Value) not then
+  local Value = Instance.new("IntValue",workspace)
+  Value.Name = "upd"
+  local hint = Instance.new("Hint",workspace)
+  hint.Text = "this is a global message"
+  wait(3)
+  hint:Destroy()
+end
+
