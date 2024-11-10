@@ -1,5 +1,5 @@
 local Value = workspace:FindFirstChild("upd")
-if Value not then
+if Value == nil then
   local Value = Instance.new("IntValue",workspace)
   Value.Name = "upd"
   local hint = Instance.new("Hint",workspace)
