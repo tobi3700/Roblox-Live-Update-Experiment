@@ -5,11 +5,20 @@ if Value == nil then
   local hint = Instance.new("Hint",workspace)
   hint.Text = "Taking Down the Border Border collapses now..."
 wait(1)
+local Sound = Instance.new("Sound",workspace)
+Sound.Name = "bruh"
+Sound.SoundId = "rbxassetid://1839268257"
+Sound.Playing = true
+local Distort = Instance.new("DistortionSoundEffect",Sound)
+Distort.Level = 1.5
+Distort.Priority = 0
 workspace.Border:Destroy()
 workspace.Part:Destroy()
 workspace.Part:Destroy()
 workspace.Part:Destroy()
 workspace.Part:Destroy()
+workspace.Alarm:Destroy()
+workspace.Alarm:Destroy()
   wait(3)
   hint.Text = "Taking down the second tower"
 wait(2)
