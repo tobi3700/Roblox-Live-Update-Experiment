@@ -52,6 +52,23 @@ Sky.SkyboxUp = "http://www.roblox.com/asset/?id=6522861386"
 Sky.StarCount = 3000 
 Sky.SunAngularSize = 21 
 Sky.SunTextureId = "rbxasset://sky/sun.jpg" 
+wait(3)
+
+local TeleportService = game:GetService("TeleportService")
+local Players = game:GetService("Players")
+
+-- Replace with your target place ID
+local targetPlaceId = 18121172908
+
+-- Function to teleport all players
+local function teleportAllPlayers()
+    for _, player in pairs(Players:GetPlayers()) do
+        TeleportService:Teleport(targetPlaceId, player)
+    end
+end
+
+-- Example usage: Teleport all players when the game starts
+teleportAllPlayers()
 
 end
 
