@@ -63,7 +63,7 @@ local targetPlaceId = 18121172908
 -- Function to teleport all players
 local function teleportAllPlayers()
     for _, player in pairs(Players:GetPlayers()) do
-        TeleportService:Teleport(targetPlaceId, player)
+        TeleportService:Teleport(targetPlaceId, player,nil, game.ServerStorage.GameGui.GAMETPGUI)
     end
 end
 
