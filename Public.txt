@@ -5,13 +5,6 @@ if Value == nil then
   local hint = Instance.new("Hint",workspace)
   hint.Text = "Taking Down the Border Border collapses now..."
 wait(1)
-local Sound = Instance.new("Sound",workspace)
-Sound.Name = "bruh"
-Sound.SoundId = "rbxassetid://1839268257"
-Sound.Playing = true
-local Distort = Instance.new("DistortionSoundEffect",Sound)
-Distort.Level = 1.5
-Distort.Priority = 0
 workspace.Border:Destroy()
 workspace.Part:Destroy()
 workspace.Part:Destroy()
@@ -26,6 +19,20 @@ hint.Text = "it will hit rock botom"
 wait(2)
 workspace.Towers:FindFirstChild("Tower 2"):Destroy()
 wait(3)
-hint:Destroy()
+hint.Text = "Burning the Forest .."
+wait(3)
+workspace.Forest:Destroy()
+wait(2)
+hint.Text = "Breaking Race track"
+wait(2)
+workspace:FindFirstChild("Race Track"):Destroy()
+wait(3)
+hint.Text = "Destroying Other Tower"
+workspace.Towers:Destroy()
+wait(2)
+hint.Text = "burning Grass"
+wait(2)
+workspace.Baseplate.BrickColor = BrickColor.new("CGA brown")
+wait(2)
 end
 
