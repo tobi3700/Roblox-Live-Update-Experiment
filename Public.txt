@@ -11,6 +11,12 @@ workspace.Part:Destroy()
 workspace.Part:Destroy()
 workspace.Part:Destroy()
   wait(3)
-  hint:Destroy()
+  hint.Text = "Taking down the second tower"
+wait(2)
+hint.Text = "it will hit rock botom"
+wait(2)
+workspace.Towers:FindFirstChild("Tower 2"):Destroy()
+wait(3)
+hint:Destroy()
 end
 
