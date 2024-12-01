@@ -36,8 +36,6 @@ workspace.Baseplate.BrickColor = BrickColor.new("CGA brown")
 wait(1)
  
 local Sky = Instance.new("Sky") 
-local fire = Instance.new("Decal") 
-local Scarydarksky = Instance.new("Decal") 
 Sky.Archivable = true 
 Sky.CelestialBodiesShown = true 
 Sky.MoonAngularSize = 11 
@@ -53,20 +51,6 @@ Sky.SkyboxUp = "http://www.roblox.com/asset/?id=6522861386"
 Sky.StarCount = 3000 
 Sky.SunAngularSize = 21 
 Sky.SunTextureId = "rbxasset://sky/sun.jpg" 
-fire.Archivable = true 
-fire.Color3 = Color3.new(1, 1, 1) 
-fire.Face = Enum.NormalId.Front 
-fire.Name = "fire" 
-fire.Parent = Sky 
-fire.Texture = "http://www.roblox.com/asset/?id=2023390" 
-fire.Transparency = 0 
-Scarydarksky.Archivable = true 
-Scarydarksky.Color3 = Color3.new(1, 1, 1) 
-Scarydarksky.Face = Enum.NormalId.Front 
-Scarydarksky.Name = "Scarydarksky" 
-Scarydarksky.Parent = Sky 
-Scarydarksky.Texture = "http://www.roblox.com/asset/?id=6522861386" 
-Scarydarksky.Transparency = 0
 
 end
 
