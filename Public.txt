@@ -6,6 +6,10 @@ if Value == nil then
   hint.Text = "Taking Down the Border Border collapses now..."
 wait(1)
 workspace.Border:Destroy()
+workspace.Part:Destroy()
+workspace.Part:Destroy()
+workspace.Part:Destroy()
+workspace.Part:Destroy()
   wait(3)
   hint:Destroy()
 end
