@@ -3,7 +3,9 @@ if Value == nil then
   local Value = Instance.new("IntValue",workspace)
   Value.Name = "upd"
   local hint = Instance.new("Hint",workspace)
-  hint.Text = "this is a global message"
+  hint.Text = "Taking Down the Border Border collapses now..."
+wait(1)
+workspace.Border:Destroy()
   wait(3)
   hint:Destroy()
 end
